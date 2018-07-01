@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+    </script>
+</head>
+<body>
+    <section>
+        <h2 id="test">Currency Converter</h2>
+            <table>
+                <tr>
+                    <td>Convert: </td>
+                    <td>
+                        <input size="15" id="convertValue">
+                    </td>
+                    <td>
+                        <select id="convertFrom">
+                            
+                        </select>
+                    </td>
+                    <td>To:</td>
+                    <td>
+                        <input size="15" id="toValue" disabled>
+                    </td>
+                    <td>
+                        <select id="convertTo">
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn" onclick="convert()">Convert</button>
+                    </td>
+                </tr>
+            </table>
+            
+    </section>
+    <script src="sw.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="/js/currency_converter.js"></script>
+
+</body>
+</html>

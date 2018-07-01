@@ -1,0 +1,19 @@
+body{
+    background-color: azure;
+    text-align: center;
+}
+h2{
+    font-family: Verdana;
+    font-size: 200%;
+}
+#converter{
+    text-align: center;
+    width: 600px;
+    margin: 0% auto;
+}
+#toAmount{
+    background-color: antiquewhite;
+}
+#fromAmount{
+    background-color: floralwhite;
+}
